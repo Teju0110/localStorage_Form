@@ -1,0 +1,85 @@
+.registation {
+    background-color:rgb(222, 239, 239);
+    padding: 8%;
+}
+
+.registation_container {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.registation_form {
+    flex: 1.5;
+    padding: 60px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_block {
+    width: 500px;
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.input_block input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 300px;
+    padding: 4px 0px;
+}
+
+.input_error{
+    color: #fb052e;
+}
+
+.registration_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration_btn p{
+    color: gray;
+    
+}
+
+.registration_btn button{
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    background-color: #003580;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.registation_image {
+    flex: 2;
+    overflow: hidden;
+}
+
+.registation_image img {
+    width: 100%;
+    height: 100%;   
+    object-fit: contain;
+}
+
+.registerLogin{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.registerLogin p{
+    cursor: pointer;
+}
+
